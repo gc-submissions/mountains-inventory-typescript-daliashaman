@@ -27,7 +27,3 @@ function calcInventoryValue(array: InventoryItem[]) :number {
 
 console.log(calcInventoryValue(inventory));
 
-export interface InventoryItem {
-    product: Product,
-    quantity: number
-}
